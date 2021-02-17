@@ -10,7 +10,7 @@ function About(props) {
   const handleShow = () => setShow(true);
 
   return (
-    <section >    
+      
     <div className="row py-5">
       <div className="col-md-12 text-center">
         <section className="card mb-5 z-depth-2">
@@ -88,7 +88,7 @@ function About(props) {
         </Modal>
       </div>
     </div>
-    </section>
+    
   );
 }
 export default About;

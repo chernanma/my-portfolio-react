@@ -16,8 +16,9 @@ import {
   ZoomIn,
 } from "react-scroll-motion";
 import About from "./components/About";
-import $ from "jquery";
 import Projects from "./components/Projects";
+import MoreProjects from "./components/MoreProjects";
+import Skills from "./components/Skills";
 
 function App() {
   const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
@@ -26,6 +27,12 @@ function App() {
 
   return (
     <>
+    {/* <Header/>
+    <div class="container" >
+    <About/>
+    <Projects />
+    <MoreProjects/>
+    <Skills/> */}
       <ScrollContainer>
         <ScrollPage page={0} style={{ heigth: "100%" }}>
           <Header />
@@ -40,13 +47,31 @@ function App() {
         </ScrollPage>
         <ScrollPage page={3}></ScrollPage>
         <ScrollPage page={4} style={{ marginTop: "400px", padding: "400px" }}>
-          <Animator animation={FadeUp}>
-            <Projects />
-            {/* <span style={{ fontSize: "40px" }}>I'm FadeUp ⛅️</span> */}
-          </Animator>
+          <section id="portfolio">
+            <Animator animation={FadeUp}>
+              <Projects />
+            </Animator>
+          </section>
         </ScrollPage>
         <ScrollPage page={5}></ScrollPage>
-        <ScrollPage page={6}>
+        <ScrollPage page={6} style={{ marginTop: "400px", padding: "400px" }}>
+          <section >
+            <Animator animation={FadeUp}>
+              <MoreProjects/>
+            </Animator>
+          </section>
+        </ScrollPage>
+        <ScrollPage page={7}></ScrollPage>        
+        <ScrollPage page={8}>
+          <section id="skills" >
+            <Animator animation={FadeUp} >
+              <Skills/>
+            </Animator>
+          </section>
+        </ScrollPage>  
+        
+        <ScrollPage page={9}></ScrollPage>        
+        <ScrollPage page={10}>
           <Animator
             animation={FadeUp}
             style={{ marginTop: "400px", padding: "400px" }}
@@ -60,6 +85,7 @@ function App() {
           </Animator>
         </ScrollPage>
       </ScrollContainer>
+      {/* </div> */}
     </>
   );
 }
