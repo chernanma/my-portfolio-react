@@ -27,18 +27,21 @@ function App() {
 
   return (
     <>
-    {/* <Header/>
+    <Header/>
     <div class="container" >
-    <About/>
+    <About />
+    <hr class="my-5" />
     <Projects />
+    <hr class="my-5" />
     <MoreProjects/>
-    <Skills/> */}
-      <ScrollContainer>
-        <ScrollPage page={0} style={{ heigth: "100%" }}>
+    <hr class="my-5" />
+    <Skills />
+      {/* <ScrollContainer>
+        <ScrollPage page={0} >
           <Header />
         </ScrollPage>
         <ScrollPage page={1}></ScrollPage>
-        <ScrollPage page={2} style={{ marginTop: "300px", padding: "400px" }}>
+        <ScrollPage page={2} style={{ marginTop: "300px", padding: "400px",heigth: "100%" }}>
           <section id="about">
             <Animator animation={ZoomInScrollOut}>
               <About />
@@ -54,7 +57,7 @@ function App() {
           </section>
         </ScrollPage>
         <ScrollPage page={5}></ScrollPage>
-        <ScrollPage page={6} style={{ marginTop: "400px", padding: "400px" }}>
+        <ScrollPage page={6} style={{ marginTop: "400px", padding:"400px" }}>
           <section >
             <Animator animation={FadeUp}>
               <MoreProjects/>
@@ -84,8 +87,8 @@ function App() {
             </span>
           </Animator>
         </ScrollPage>
-      </ScrollContainer>
-      {/* </div> */}
+      </ScrollContainer> */}
+      </div>
     </>
   );
 }

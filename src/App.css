@@ -1,10 +1,10 @@
 
 .viewHeader{
   background-image: url('./images/coverimage.png'); 
-  /* background-repeat: no-repeat;  */
+  background-repeat: no-repeat;
   background-size:cover; 
-  /* background-position:center; */
-  height: 100%;
+  background-position:center;
+  /* height: 100%; */
 }
 
 .pageone{
@@ -15,24 +15,20 @@
   height: 700px;
 }
 
-#containerpageone{
+#container{
   height: 100%;
 }
 
 html,
 body,
+#root, 
 header,
-.view {
-  height: 100%;
-}
+.viewHeader {
+   height: 100%;
+  }
 
 @media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 100vh;
-  }
+  #root, header,.viewHeader{ height: 100%;}
 }
 
 .top-nav-collapse {
