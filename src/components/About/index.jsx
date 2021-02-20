@@ -23,7 +23,7 @@ function About(props) {
                 <img
                   src={picProfile}
                   className="img-fluid w-25 p-2 float-left"
-                  alt="Profile Image"
+                  alt="ProfileImage"
                 />
                 <p
                   className="card-text text-muted"
