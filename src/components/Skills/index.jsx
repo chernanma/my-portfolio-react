@@ -15,7 +15,7 @@ import bootstrapImage from "../../images/skills/bootstrap.png";
 
 function Skills(props) {
   return (
-    <section id="skills" className="mt-5 mb-5 ">
+    <section id="skills" className="mt-5 mb-5 full-height">
       <div className="card mb-5 z-depth-2">
         <h2 className="card-header h1-responsive font-weight-bold">Skills</h2>
         <div className="card-body">

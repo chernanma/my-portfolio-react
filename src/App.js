@@ -145,8 +145,7 @@ function App() {
           </Animator>
         </ScrollPage>
       </ScrollContainer> */}
-      </div>
-      <hr className="my-5" />
+      </div>      
     <Footer />
     </>
   );

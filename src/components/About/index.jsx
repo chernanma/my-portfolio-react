@@ -10,7 +10,7 @@ function About(props) {
   const handleShow = () => setShow(true);
 
   return (
-    <section id="about" className="mt-5 mb-5 ">
+    <section id="about" className="full-height-about">
     <div className="row py-5">
       <div className="col-md-12 col-sm-12 col-xs-12 text-center">
         <section className="card mb-5 z-depth-2">

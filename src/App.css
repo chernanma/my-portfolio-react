@@ -7,6 +7,16 @@
   /* height: 100%; */
 }
 
+.full-height{
+  height: 83vh;
+  padding-top: 200px;
+}
+
+.full-height-about{
+  height: 100vh;
+  padding-top: 200px;
+}
+
 .pageone{
   height: 100%;
 }
