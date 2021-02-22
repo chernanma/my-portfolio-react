@@ -145,7 +145,7 @@ function App() {
           </Animator>
         </ScrollPage>
       </ScrollContainer> */}
-      </div>      
+      </div>            
     <Footer />
     </>
   );

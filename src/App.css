@@ -55,6 +55,21 @@ header,
   }
 }
 
+@media (max-width: 575px) {
+  #about {
+    height: auto;
+  }
+  #skills {
+    height: auto;
+  }
+  #contact {
+    height: auto;
+  }
+  #footer{
+    height: auto;
+  }
+}
+
 h1 {
   letter-spacing: 8px;
 }

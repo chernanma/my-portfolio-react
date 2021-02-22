@@ -5,7 +5,7 @@ import mainMbdirect from "../../images/mainmbdirect.png";
 
 function Projects(props) {
   return (
-    <section id="portfolio" style={{ marginBottom: "200px" }} className="mt-5">
+    <section id="portfolio" style={{ marginBottom: "200px" }} className="mt-5 container">
       <div className="dark-grey-text text-center mb-4 py-5">
         <h2 className="h1-responsive font-weight-bold text-center">
           Recent Projects

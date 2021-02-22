@@ -15,7 +15,7 @@ import bootstrapImage from "../../images/skills/bootstrap.png";
 
 function Skills(props) {
   return (
-    <section id="skills" className="mt-5 mb-5 full-height">
+    <section id="skills" className="container full-height">
       <div className="card mb-5 z-depth-2">
         <h2 className="card-header h1-responsive font-weight-bold">Skills</h2>
         <div className="card-body">
@@ -27,7 +27,7 @@ function Skills(props) {
                     src={htmlImage}
                     className="img-fluid"
                     alt="Html"
-                    style={{ width: "140px", height: "100px" }}
+                    style={{ width: "120px", height: "100px" }}
                   />
                 </div>
               </div>
@@ -40,7 +40,7 @@ function Skills(props) {
                     src={javascriptImage}
                     className="img-fluid"
                     alt="JavaScript"
-                    style={{ width: "140px", height: "100px" }}
+                    style={{ width: "120px", height: "100px" }}
                   />
                 </div>
               </div>
@@ -53,7 +53,7 @@ function Skills(props) {
                     src={cssImage}
                     className="img-fluid"
                     alt="CSS"
-                    style={{ width: "140px", height: "100px" }}
+                    style={{ width: "120px", height: "100px" }}
                   />
                 </div>
               </div>
@@ -66,7 +66,7 @@ function Skills(props) {
                     src={jqueryImage}
                     className="img-fluid"
                     alt="JQuery"
-                    style={{ width: "140px", height: "100px" }}
+                    style={{ width: "120px", height: "100px" }}
                   />
                 </div>
               </div>
@@ -83,7 +83,7 @@ function Skills(props) {
                     src={nodejsImage}
                     className="img-fluid"
                     alt="nodejs"
-                    style={{ width: "140px", height: "100px" }}
+                    style={{ width: "120px", height: "100px" }}
                   />
                 </div>
               </div>
@@ -96,7 +96,7 @@ function Skills(props) {
                     src={reactImage}
                     className="img-fluid"
                     alt="react"
-                    style={{ width: "140px", height: "100px" }}
+                    style={{ width: "120px", height: "100px" }}
                   />
                 </div>
               </div>
@@ -109,7 +109,7 @@ function Skills(props) {
                     src={apexImage}
                     className="img-fluid"
                     alt="apex"
-                    style={{ width: "140px", height: "100px" }}
+                    style={{ width: "120px", height: "100px" }}
                   />
                 </div>
               </div>
@@ -134,7 +134,7 @@ function Skills(props) {
                     src={mongodbImage}
                     className="img-fluid"
                     alt="mongodb"
-                    style={{ width: "140px", height: "100px" }}
+                    style={{ width: "120px", height: "100px" }}
                   />
                 </div>
               </div>
@@ -147,7 +147,7 @@ function Skills(props) {
                     src={mysqlImage}
                     className="img-fluid"
                     alt="mysql"
-                    style={{ width: "140px", height: "100px" }}
+                    style={{ width: "120px", height: "100px" }}
                   />
                 </div>
               </div>
@@ -180,7 +180,7 @@ function Skills(props) {
                     src={githubImage}
                     className="img-fluid"
                     alt="github"
-                    style={{ width: "140px", height: "100px" }}
+                    style={{ width: "120px", height: "100px" }}
                   />
                 </div>
               </div>
@@ -193,7 +193,7 @@ function Skills(props) {
                     src={herokuImage}
                     className="img-fluid"
                     alt="heroku"
-                    style={{ width: "140px", height: "100px" }}
+                    style={{ width: "120px", height: "100px" }}
                   />
                 </div>
               </div>
@@ -206,7 +206,7 @@ function Skills(props) {
                     src={materializeImage}
                     className="img-fluid"
                     alt="materialize"
-                    style={{ width: "140px", height: "100px" }}
+                    style={{ width: "120px", height: "100px" }}
                   />
                 </div>
               </div>
@@ -218,7 +218,7 @@ function Skills(props) {
                     src={bootstrapImage}
                     className="img-fluid"
                     alt="bootstrap"
-                    style={{ width: "140px", height: "100px" }}
+                    style={{ width: "120px", height: "100px" }}
                   />
                 </div>
               </div>

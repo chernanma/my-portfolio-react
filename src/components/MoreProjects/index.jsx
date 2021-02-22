@@ -8,7 +8,7 @@ import notetakerImage from "../../images/notetaker.png";
 
 function MoreProjects(props) {
   return (
-    <section className="mt-5 mb-5 ">
+    <section className="mt-5 mb-5 container">
       <div className="dark-grey-text text-center mb-4 py-5 mt-4">
         <h2 className="h1-responsive font-weight-bold text-center">
           More Work
