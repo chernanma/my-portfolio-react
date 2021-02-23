@@ -17,9 +17,11 @@ function Skills(props) {
   return (
     <section id="skills" className="container full-height">
       <div className="card mb-5 z-depth-2">
-        <h2 className="card-header h1-responsive font-weight-bold">Skills</h2>
-        <div className="card-body">
-          <div className="row features-small mt-5 fadeIn">
+        <h2 className="card-header h4-responsive font-weight-bold">
+          FRONT-END
+        </h2>
+        <div className="card-body text-center">
+          <div className="row features-small mt-3 fadeIn">
             <div className="col-xl-3 col-lg-6">
               <div className="row">
                 <div className="col-12 ">
@@ -72,9 +74,14 @@ function Skills(props) {
               </div>
             </div>
           </div>
+        </div>
+      </div>
 
-          <hr className="my-5" />
-
+      <div className="card mb-5 z-depth-2">
+        <h2 className="card-header h4-responsive font-weight-bold">
+          BACK-END
+        </h2>
+        <div className="card-body text-center">
           <div className="row features-small mt-4 wow fadeIn">
             <div className="col-xl-3 col-lg-6">
               <div className="row">
@@ -123,55 +130,66 @@ function Skills(props) {
               </div>
             </div>
           </div>
+        </div>
+      </div>
 
-          <hr className="my-5" />
-
-          <div className="row features-small mt-4 wow fadeIn">
-            <div className="col-xl-3 col-lg-6">
-              <div className="row">
-                <div className="col-12">
-                  <img
-                    src={mongodbImage}
-                    className="img-fluid"
-                    alt="mongodb"
-                    style={{ width: "120px", height: "100px" }}
-                  />
+      <div className="card mb-5 z-depth-2">
+        <h2 className="card-header h4-responsive font-weight-bold">
+         DATABASES
+        </h2>
+        <div className="card-body text-center">
+          <div className="row features-small  wow fadeIn">            
+              <div className="col-xl-3 col-lg-6">
+                <div className="row">
+                  <div className="col-12">
+                    <img
+                      src={mongodbImage}
+                      className="img-fluid"
+                      alt="mongodb"
+                      style={{ width: "200px", height: "150px",padding:"4px" }}
+                    />
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className="col-xl-3 col-lg-6">
-              <div className="row">
-                <div className="col-12">
-                  <img
-                    src={mysqlImage}
-                    className="img-fluid"
-                    alt="mysql"
-                    style={{ width: "120px", height: "100px" }}
-                  />
+              <div className="col-xl-3 col-lg-6">
+                <div className="row">
+                  <div className="col-12">
+                    <img
+                      src={mysqlImage}
+                      className="img-fluid"
+                      alt="mysql"
+                      style={{ width: "200px", height: "150px"}}
+                    />
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className="col-xl-3 col-lg-6">
-              <div className="row">
-                <div className="col-12">
-                  <img src="#" className="img-fluid" alt="" />
+              <div className="col-xl-3 col-lg-6">
+                <div className="row">
+                  <div className="col-12">
+                    <img src="#" className="img-fluid" alt="" />
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className="col-xl-3 col-lg-6">
-              <div className="row">
-                <div className="col-12">
-                  <img src="#" className="img-fluid" alt="" />
+              <div className="col-xl-3 col-lg-6">
+                <div className="row">
+                  <div className="col-12">
+                    <img src="#" className="img-fluid" alt="" />
+                  </div>
                 </div>
               </div>
-            </div>
+            
           </div>
+        </div>
+      </div>
 
-          <hr className="my-5" />
-
+      <div className="card mb-5 z-depth-2">
+        <h2 className="card-header h4-responsive font-weight-bold">
+          OTHERS
+        </h2>
+        <div className="card-body text-center">
           <div className="row features-small mt-4 wow fadeIn">
             <div className="col-xl-3 col-lg-6">
               <div className="row">

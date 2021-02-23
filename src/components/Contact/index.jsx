@@ -3,7 +3,7 @@ import React from "react";
 function Contact(props) {
   console.log(props.status);
   return (
-    <section className="dark-grey-text text-center full-height" id="contact">
+    <section className="dark-grey-text text-center full-height-contact" id="contact">
       <h2 className="h1-responsive font-weight-bold text-center ">
         Contact Me
       </h2>

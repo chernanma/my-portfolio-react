@@ -89,8 +89,7 @@ function App() {
     <hr className="my-5" />
     <MoreProjects/>
     <hr className="my-5" />
-    <Skills />
-    <hr className="my-5" />
+    <Skills />    
     <Contact handleInputNameChange={handleInputNameChange} handleInputEmailChange ={handleInputEmailChange } handleInputSubjectChange={handleInputSubjectChange}  handleInputMessageChange={handleInputMessageChange} validateForm={validateForm} status={status}/>
     
       {/* <ScrollContainer>
