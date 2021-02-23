@@ -85,11 +85,11 @@ function Contact(props) {
           {props.status !== "none" ? (
             <>
               {props.status === "Sending..." ? (
-                <div class="alert alert-success">
+                <div className="alert alert-success">
                   <strong>{props.status}!</strong>
                 </div>
               ) : (
-                <div class="alert alert-warning">
+                <div className="alert alert-warning">
                   <strong>Warning!</strong> {props.status}
                 </div>
               )}
